@@ -1,0 +1,125 @@
+@media only screen and (max-widht:500) {
+    
+}
+
+html {
+    background-color: rgb(206, 180, 180);
+}
+
+
+.header-logo {
+    display: inline-block;  
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-align:center;  
+ 
+}
+*:not(input):not(textarea) {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.body{
+    margin-left: 5fr;
+    margin-right: 5fr;
+}
+
+.header-menu ul { 
+    margin: 8px;
+    float: center;
+    text-align: center;
+    background-color:transparent    
+    border-style ridge
+
+}
+.header-menu li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.header-menu li a {
+    padding: 0.5rem;
+    background-color: transparent;
+    width: 50px
+}
+
+.header-menu {
+    width: 100%;
+    max-width: 1000px;
+    margin: center;
+}
+
+header {
+    background-color: transparent; 
+    width: 80%; 
+    text-indent: center; 
+    margin-left: auto; 
+    margin-right: auto;
+    border:"1" cellpadding="15" cellspacing="2"
+    
+}
+
+main {
+    margin: 20px;;
+    padding: 22px;;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: rgb(206, 180, 180);
+    font-size:medium;
+    font-style:inherit;
+}
+
+article.manzana {
+    display: inline-grid;
+    height: 100px;
+    text-align:center;
+}
+
+.contenedor h3 {
+    max-width: 520px;
+    width: 90%;
+    margin: 800;
+    text-align: center;
+    display: grid;
+}
+
+.manzana1 {
+    display:block;
+    color: #0e0b0b;
+    padding: 6px;
+    float: left;
+    height: auto;
+    margin: 100px;
+}
+.manzana2 {
+    display:block;
+    color: #0e0b0b;
+    padding: 6px;
+    float: right;
+    height: auto;
+    margin: 100px;
+}
+
+h1 { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 90px;
+    grid-row-gap: 10px;
+    font-size:140%
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+h2 {
+    text-align: center;
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
